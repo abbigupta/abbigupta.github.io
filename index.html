@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Abhinav Gupta is a computer engineering student and machine learning researcher building practical AI and autonomous systems." />
-    <meta name="theme-color" content="#f4f3ee" />
+    <meta
+      name="description"
+      content="Abhinav Gupta is a computer engineering student and machine learning researcher building autonomous systems, intelligent tools, and useful software."
+    />
+    <meta name="theme-color" content="#080808" />
     <title>Abhinav Gupta — Engineer &amp; Researcher</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
@@ -12,208 +15,223 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="Abhinav Gupta, home">AG</a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav"><span>Menu</span></button>
-      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-        <a href="#experience">Experience</a>
-        <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+    <section class="badge-hero" id="top" aria-labelledby="hero-title">
+      <header class="hero-nav">
+        <a class="hero-wordmark" href="#top" aria-label="Abhinav Gupta, home">
+          <span>A.G.</span>
+          <span>Portfolio / Last Updated: August 2026</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+        </nav>
+      </header>
+
+      <div class="hero-title-wrap">
+        <h1 id="hero-title"><em>Computer Engineering</em> <br> and <br> <em>Machine Learning</em></h1>
+      </div>
+
+      <div class="physics-stage" id="badge-stage">
+        <svg class="tether" id="tether" aria-hidden="true">
+          <path class="tether-shadow" id="tether-shadow"></path>
+          <path class="tether-line" id="tether-line"></path>
+        </svg>
+
+        <div class="anchor-pin" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+
+        <article
+          class="badge-card"
+          id="badge-card"
+          tabindex="0"
+          aria-describedby="drag-instruction"
+          aria-label="Abhinav Gupta portfolio ID card. Drag it and release to swing it back into place."
+        >
+          <div class="badge-clip" aria-hidden="true">
+            <span class="clip-ring"></span>
+            <span class="clip-stem"></span>
+          </div>
+          <div class="badge-hole" aria-hidden="true"></div>
+
+          <div class="badge-topline">
+            <time id="badge-date"></time>
+            <span>Portfolio Pass</span>
+          </div>
+          <div class="badge-photo">
+            <img src="assets/abhinav-gupta.jpg" alt="Portrait of Abhinav Gupta" width="1510" height="2013" draggable="false" />
+            <span class="photo-index">Grad: 2029</span>
+          </div>
+          <div class="badge-copy">
+            <div>
+              <strong>Abhinav Gupta</strong>
+              <span>Major: Computer Engineer</span>
+            </div>
+            <span class="badge-status">Open to work</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="drag-note" id="drag-instruction"><span aria-hidden="true">↗</span> Grab the card · pull · release</p>
+      <a class="hero-scroll" href="#main">View portfolio <span aria-hidden="true">↓</span></a>
+    </section>
 
     <main id="main">
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="experience-column" id="experience">
-          <p class="section-label">Experience</p>
-          <div class="experience-list">
-            <article class="experience-item">
-              <div class="experience-date">Aug 2026 — Now</div>
-              <div>
-                <h2>Machine Learning Researcher</h2>
-                <p class="organization">Texas A&amp;M · C.A.R.E.S. Lab</p>
-                <p>Improving underwater microplastic detection in low-light, turbid AUV vision with GAN-based image enhancement.</p>
+      <div class="portfolio-shell">
+        <header class="intro" id="about">
+          <p class="kicker">Hello, I’m</p>
+          <h2>Abhinav Gupta</h2>
+          <p class="intro-role">Computer Engineering @ Texas A&amp;M University</p>
+          <p class="intro-location">College Station, Texas</p>
+
+          <div class="intro-links" aria-label="External links">
+            <a href="https://github.com/abbigupta" target="_blank" rel="noreferrer">github.com/abbigupta <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/abhinav-gupta-houtx/" target="_blank" rel="noreferrer">linkedin <span aria-hidden="true">↗</span></a>
+            <a href="mailto:abbigupta.j18@gmail.com">email <span aria-hidden="true">↗</span></a>
+          </div>
+        </header>
+
+        <section class="resume-section about-section" aria-labelledby="about-title">
+          <div class="section-title-row">
+            <h2 id="about-title">About</h2>
+            <span>01</span>
+          </div>
+          <p class="about-copy">
+            I’m a Computer Engineering student with interest in Machine Learning for Embodied AI and Humanoids.
+          </p>
+        </section>
+
+        <section class="resume-section" id="experience" aria-labelledby="experience-title">
+          <div class="section-title-row">
+            <h2 id="experience-title">Experience</h2>
+            <span>02</span>
+          </div>
+
+          <div class="entry-list">
+            <article class="entry">
+              <div class="entry-heading">
+                <h3>Texas A&amp;M · Clean and Resilient Energy Systems (CARES) Research Lab</h3>
+                <time datetime="2026-08">Aug 2026 — Present</time>
               </div>
+              <p class="entry-role">Machine Learning Researcher · Underwater Autonomous Perception</p>
+              <p>Applying GAN architectures to improve microplastic detection in low-light, turbid AUV imagery and documenting model performance for research publication.</p>
+              <ul class="inline-tags" aria-label="Technologies">
+                <li>Python</li><li>PyTorch</li><li>Scikit-learn</li><li>GANs</li><li>Image enhancement</li>
+              </ul>
             </article>
-            <article class="experience-item">
-              <div class="experience-date">Jun 2026 — Now</div>
-              <div>
-                <h2>Machine Learning Researcher</h2>
-                <p class="organization">University of Houston · Real-Time Systems Lab</p>
-                <p>Built parallel inference for dynamic classifier cascades, cutting inference time by 81% with a 2.6% accuracy tradeoff.</p>
+
+            <article class="entry">
+              <div class="entry-heading">
+                <h3>University of Houston · Real-Time Systems Lab</h3>
+                <time datetime="2026-06">Jun 2026 — Present</time>
               </div>
+              <p class="entry-role">Machine Learning Researcher · IDK Cascades · First Author IEEE Symposium on Real-Time Systems</p>
+              <p>Built parallel CPU processing for adaptive classifier inference on embedded systems, reducing inference time by 81% with only a 2.6% accuracy tradeoff.</p>
+              <ul class="inline-tags" aria-label="Technologies">
+                <li>PyTorch</li><li>Jetson Nano</li><li>Vision Transformers</li><li>SVM</li><li>Random Forest</li>
+              </ul>
             </article>
-            <article class="experience-item">
-              <div class="experience-date">Summer 2025</div>
-              <div>
-                <h2>Software Developer</h2>
-                <p class="organization">MIT Lincoln Laboratory · Beaver Works</p>
-                <p>Developed autonomous line following, obstacle avoidance, and precision landing for an aerial vehicle.</p>
+
+            <article class="entry">
+              <div class="entry-heading">
+                <h3>MIT Lincoln Laboratory · Beaver Works Summer Institute</h3>
+                <time datetime="2025-06">June 2025 — Aug 2025</time>
               </div>
+              <p class="entry-role">Software Developer · Unmanned Autonomous Aerial Vehicle (UAV) </p>
+              <p>Built line-following and obstacle-avoidance systems with an 83% success rate across 124 Gazebo tests, then integrated onboard sensing to reduce landing error to 0.25 m.</p>
+              <ul class="inline-tags" aria-label="Technologies">
+                <li>Python</li><li>ROS 2</li><li>Gazebo</li><li>PX4</li><li>Computer Vision</li><li>Raspberry Pi 5</li>
+              </ul>
             </article>
-            <article class="experience-item">
-              <div class="experience-date">2024 — 2025</div>
-              <div>
-                <h2>Lead App Development Instructor</h2>
-                <p class="organization">iCode</p>
-                <p>Taught students to build utility apps and games with C#, .NET, APIs, and databases.</p>
+
+            <article class="entry">
+              <div class="entry-heading">
+                <h3>iCode</h3>
+                <time datetime="2024-11">Nov 2024 — Feb 2025</time>
               </div>
+              <p class="entry-role">Lead App Development Instructor</p>
+              <p>Taught students to design and build four utility apps and games while covering backends, API integration, databases, and object-oriented programming.</p>
+              <ul class="inline-tags" aria-label="Technologies">
+                <li>C#</li><li>XML</li><li>.NET</li><li>SQLite</li><li>CRUD</li>
+              </ul>
             </article>
           </div>
-        </div>
+        </section>
 
-        <div class="profile-column">
-          <div class="portrait-wrap">
-            <span class="portrait-fallback" aria-hidden="true">AG</span>
-            <img class="portrait" src="assets/abhinav-gupta.jpg" alt="Abhinav Gupta" width="900" height="1200" />
+        <section class="resume-section" id="projects" aria-labelledby="projects-title">
+          <div class="section-title-row">
+            <h2 id="projects-title">Selected projects</h2>
+            <span>03</span>
           </div>
-          <div class="profile-copy">
-            <p class="availability"><span></span> Open to ambitious projects</p>
-            <h1 id="hero-title">Abhinav<br />Gupta</h1>
-            <p class="intro">Computer Engineering student at Texas A&amp;M building practical machine learning, autonomous systems, and products for people.</p>
-            <div class="profile-links">
-              <a class="button button-dark" href="#research">See my work <span aria-hidden="true">↓</span></a>
-              <a class="text-link" href="mailto:abbigupta.j18@gmail.com">Email me <span aria-hidden="true">↗</span></a>
-            </div>
+
+          <div class="project-list">
+            <article class="project">
+              <div class="project-copy">
+                <h3><a href="https://github.com/abbigupta/kalshi-trading-bot/tree/main" target="_blank" rel="noreferrer">Kalshi BTC Forecasting Bot <span aria-hidden="true">↗</span></a></h3>
+                <p>Forecasts 15-minute UP/DOWN markets from Coinbase candles using a Random Forest model. Backtested across 5,844 markets at 87.6% accuracy.</p>
+              </div>
+              <div class="project-meta"><span>Python</span><span>ML · Fintech</span></div>
+            </article>
+
+            <article class="project">
+              <div class="project-copy">
+                <h3><a href="https://devpost.com/software/rooted-t6l94k" target="_blank" rel="noreferrer">Rooted <span aria-hidden="true">↗</span></a><span class="project-note">3rd at FidHacks ’26</span></h3>
+                <p>An AI investment assistant combining account context, live financial news, and Gemini to deliver personalized investment suggestions.</p>
+              </div>
+              <div class="project-meta"><span>React</span><span>AI · Finance</span></div>
+            </article>
+
+            <article class="project">
+              <div class="project-copy">
+                <h3><a href="https://www.bytebrawl.io" target="_blank" rel="noreferrer">ByteBrawl.io <span aria-hidden="true">↗</span></a></h3>
+                <p>A LeetCode-style platform for 1v1 coding duels and real-time challenges, with conflict-free collaborative code, chat, and status.</p>
+              </div>
+              <div class="project-meta"><span>Next.js</span><span>Real-time web</span></div>
+            </article>
+
+            <article class="project">
+              <div class="project-copy">
+                <h3><a href="https://github.com/abbigupta/eSchool-Tardy-System" target="_blank" rel="noreferrer">Automated Tardy System <span aria-hidden="true">↗</span></a></h3>
+                <p>A Python system that replaced handwritten passes for 3,200+ students and reduced administrative work by one hour each day.</p>
+              </div>
+              <div class="project-meta"><span>Python</span><span>Automation</span></div>
+            </article>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="section research-section" id="research" aria-labelledby="research-title">
-        <div class="section-heading">
-          <p class="section-label">01 / Research</p>
-          <h2 id="research-title">Making intelligent systems faster, clearer, and more capable.</h2>
-          <p>Select a research area to read more.</p>
-        </div>
-
-        <div class="research-list">
-          <details class="research-card">
-            <summary>
-              <div class="research-visual research-visual-ocean" aria-hidden="true">
-                <svg viewBox="0 0 640 360">
-                  <path d="M0 80C88 43 153 124 244 83s150-34 235 6 117 8 161-4v275H0Z" fill="#b9dbe1" />
-                  <path d="M0 152c87-40 160 25 245 0 94-28 151-6 229 22 56 20 108 10 166-15v201H0Z" fill="#88bdc7" />
-                  <path d="m272 148 92-29 42 39-48 51-92-14Z" fill="#162f34" />
-                  <path d="m364 139 91-37-8 79-65-1Z" fill="#f4f3ee" />
-                  <circle cx="306" cy="170" r="10" fill="#dfff68" />
-                  <circle cx="151" cy="246" r="7" fill="#f4f3ee" opacity=".75" />
-                  <circle cx="183" cy="214" r="4" fill="#f4f3ee" opacity=".75" />
-                  <circle cx="493" cy="271" r="5" fill="#f4f3ee" opacity=".75" />
-                </svg>
-              </div>
-              <div class="research-summary">
-                <p class="research-meta">Texas A&amp;M University · 2026 — Present</p>
-                <h3>Underwater autonomous perception</h3>
-                <p>GAN-based image enhancement for microplastic detection in difficult underwater environments.</p>
-                <span class="expand-label"><span class="expand-text">View details</span><span class="expand-icon" aria-hidden="true">+</span></span>
-              </div>
-            </summary>
-            <div class="research-details">
-              <div>
-                <p class="detail-label">The work</p>
-                <p>At the Clean and Resilient Energy Systems Lab, I apply generative adversarial networks to improve low-light, turbid imagery captured by autonomous underwater vehicles. The goal is to give downstream microplastic detection models cleaner, more useful visual inputs.</p>
-              </div>
-              <div>
-                <p class="detail-label">Tools</p>
-                <ul class="tag-list" aria-label="Research tools"><li>Python</li><li>PyTorch</li><li>Scikit-learn</li><li>GANs</li><li>Image enhancement</li></ul>
-                <a class="button button-light" href="https://github.com/abbigupta" target="_blank" rel="noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
-              </div>
+        <section class="resume-section split-section" aria-label="Education and skills">
+          <div class="split-block">
+            <div class="section-title-row">
+              <h2>Education</h2>
+              <span>04</span>
             </div>
-          </details>
-
-          <details class="research-card">
-            <summary>
-              <div class="research-visual research-visual-cascade" aria-hidden="true">
-                <svg viewBox="0 0 640 360">
-                  <g fill="none" stroke="#8e7fff" stroke-width="5"><path d="M90 180h105M267 111h90M267 249h90M429 111h108M429 249h108" /><path d="m186 180 81-69M186 180l81 69M357 111h72M357 249h72" /></g>
-                  <g fill="#f4f3ee" stroke="#15132d" stroke-width="5"><rect x="54" y="132" width="132" height="96" rx="48" /><rect x="267" y="63" width="90" height="96" rx="30" /><rect x="267" y="201" width="90" height="96" rx="30" /><rect x="429" y="63" width="108" height="96" rx="30" /><rect x="429" y="201" width="108" height="96" rx="30" /></g>
-                  <g fill="#15132d" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle"><text x="120" y="188" font-size="25">INPUT</text><text x="312" y="120" font-size="22">FAST</text><text x="312" y="258" font-size="22">DEEP</text><text x="483" y="120" font-size="22">EXIT</text><text x="483" y="258" font-size="22">EXIT</text></g>
-                </svg>
-              </div>
-              <div class="research-summary">
-                <p class="research-meta">University of Houston · 2026 — Present</p>
-                <h3>Dynamic IDK classifier cascades</h3>
-                <p>Fast, adaptive machine learning inference for constrained embedded systems.</p>
-                <span class="expand-label"><span class="expand-text">View details</span><span class="expand-icon" aria-hidden="true">+</span></span>
-              </div>
-            </summary>
-            <div class="research-details">
-              <div>
-                <p class="detail-label">The work</p>
-                <p>As a first author on the IDK Cascades team, I built parallel CPU processing for an adaptive classifier architecture on embedded hardware. The system reduced inference time by 81% while limiting the accuracy drop to 2.6%.</p>
-              </div>
-              <div>
-                <p class="detail-label">Tools</p>
-                <ul class="tag-list" aria-label="Research tools"><li>PyTorch</li><li>Jetson Nano</li><li>Vision Transformers</li><li>SVM</li><li>Random Forest</li></ul>
-                <a class="button button-light" href="https://github.com/abbigupta/dynamic-idk-cascades" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </details>
-        </div>
-      </section>
-
-      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading project-heading">
-          <p class="section-label">02 / Projects</p>
-          <h2 id="projects-title">Selected builds.</h2>
-          <a class="text-link" href="https://github.com/abbigupta?tab=repositories" target="_blank" rel="noreferrer">All repositories <span aria-hidden="true">↗</span></a>
-        </div>
-
-        <div class="project-list">
-          <article class="project-card">
-            <p class="project-number">01</p>
-            <div class="project-content">
-              <div class="project-title-row"><h3>Kalshi BTC Trading Bot</h3><p>Machine Learning · Fintech</p></div>
-              <p class="project-description">A live trading system that forecasts 15-minute Bitcoin markets with Coinbase data and a Random Forest model. Backtested across 5,844 markets with 87.6% accuracy.</p>
-              <ul class="tag-list" aria-label="Project technologies"><li>Python</li><li>Scikit-learn</li><li>Coinbase API</li><li>Kalshi API</li></ul>
-            </div>
-            <a class="project-button" href="https://github.com/abbigupta/kalshi-trading-bot/tree/main" target="_blank" rel="noreferrer" aria-label="View Kalshi BTC Trading Bot on GitHub">GitHub <span aria-hidden="true">↗</span></a>
-          </article>
-
-          <article class="project-card">
-            <p class="project-number">02</p>
-            <div class="project-content">
-              <div class="project-title-row"><h3>Rooted</h3><p>AI · Personal Finance</p></div>
-              <p class="project-description">An AI investment assistant that combines account context, live financial news, and Gemini to deliver personalized investment suggestions. Third place at FidHacks 2026.</p>
-              <ul class="tag-list" aria-label="Project technologies"><li>React</li><li>Gemini API</li><li>Supabase</li><li>MarketAux API</li></ul>
-              <a class="inline-link" href="https://devpost.com/software/rooted-t6l94k" target="_blank" rel="noreferrer">Devpost case study <span aria-hidden="true">↗</span></a>
-            </div>
-            <a class="project-button" href="https://github.com/phobeetan/rooted" target="_blank" rel="noreferrer" aria-label="View Rooted on GitHub">GitHub <span aria-hidden="true">↗</span></a>
-          </article>
-
-          <article class="project-card">
-            <p class="project-number">03</p>
-            <div class="project-content">
-              <div class="project-title-row"><h3>ByteBrawl.io</h3><p>Real-time Web App</p></div>
-              <p class="project-description">A LeetCode-style platform for one-on-one coding duels and real-time challenges with parties of up to 10. Collaborative code, chat, and status stay synchronized conflict-free.</p>
-              <ul class="tag-list" aria-label="Project technologies"><li>Next.js</li><li>WebSockets</li><li>Yjs</li><li>Supabase</li></ul>
-            </div>
-            <a class="project-button" href="https://www.bytebrawl.io" target="_blank" rel="noreferrer" aria-label="Visit ByteBrawl live website">Live site <span aria-hidden="true">↗</span></a>
-          </article>
-
-          <article class="project-card">
-            <p class="project-number">04</p>
-            <div class="project-content">
-              <div class="project-title-row"><h3>eSchool Tardy System</h3><p>Automation · Education</p></div>
-              <p class="project-description">A Python automation system that replaced handwritten tardy passes for 3,200+ students and reduced daily administrative work by one hour.</p>
-              <ul class="tag-list" aria-label="Project technologies"><li>Python</li><li>PyQt</li><li>CSV</li><li>Hardware integration</li></ul>
-            </div>
-            <a class="project-button" href="https://github.com/abbigupta/eSchool-Tardy-System" target="_blank" rel="noreferrer" aria-label="View eSchool Tardy System on GitHub">GitHub <span aria-hidden="true">↗</span></a>
-          </article>
-        </div>
-      </section>
-
-      <section class="contact-section" id="contact" aria-labelledby="contact-title">
-        <p class="section-label">03 / Contact</p>
-        <div class="contact-grid">
-          <h2 id="contact-title">Have a problem worth solving?</h2>
-          <div class="contact-copy">
-            <p>I’m always interested in thoughtful research, engineering challenges, and people building useful things.</p>
-            <a class="contact-email" href="mailto:abbigupta.j18@gmail.com">abbigupta.j18@gmail.com <span aria-hidden="true">↗</span></a>
+            <h3>Texas A&amp;M University</h3>
+            <p>B.S. Computer Engineering</p>
+            <p class="muted">Expected May 2029</p>
+            <p class="small-copy">Relavant coursework in C++, data structures and algorithms, discrete structures, and Calculus II.</p>
           </div>
-        </div>
-        <footer>
+
+
+        <section class="resume-section honors-section" aria-labelledby="honors-title">
+          <div class="section-title-row">
+            <h2 id="honors-title">Certifications</h2>
+            <span>06</span>
+          </div>
+          <ul class="honor-list">
+            <li><span>Anthropic Claude Certified Architect</span><span>Early access · First 5,000 globally</span></li>
+          </ul>
+        </section>
+
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">Let’s build<br />something useful.</h2>
+          <div class="contact-links">
+            <a href="mailto:abbigupta.j18@gmail.com">abbigupta.j18@gmail.com <span aria-hidden="true">↗</span></a>
+            <a href="tel:+13465736584">+1 346 573 6584 <span aria-hidden="true">↗</span></a>
+          </div>
+        </section>
+
+        <footer class="site-footer">
           <p>© <span id="year">2026</span> Abhinav Gupta</p>
           <div>
             <a href="https://github.com/abbigupta" target="_blank" rel="noreferrer">GitHub</a>
@@ -221,7 +239,8 @@
             <a href="#top">Back to top ↑</a>
           </div>
         </footer>
-      </section>
+      </div>
     </main>
+    <div class="link-preview" id="link-preview" aria-hidden="true"></div>
   </body>
 </html>
